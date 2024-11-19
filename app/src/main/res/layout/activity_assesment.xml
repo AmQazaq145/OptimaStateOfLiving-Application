@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select All That Apply"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Pie Chart ImageView with Drawable -->
+    <ImageView
+        android:id="@+id/pieChartImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/titleText"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/pie_chart"
+        android:contentDescription="Simple Pie Chart"/>
+
+    <!-- Feelings Wheel Image -->
+    <ImageView
+        android:id="@+id/feelingsWheel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/pieChartImage"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/feelings_wheel"
+        android:contentDescription="Feelings Wheel"/>
+
+    <!-- Drop Down Text -->
+    <TextView
+        android:id="@+id/dropDownText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drop Down Screen to display all feelings associated with selection"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:layout_below="@id/feelingsWheel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:background="#FFC107"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="16dp"
+        android:textColor="#000000"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="#FFC107"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:textColor="#000000"/>
+
+</RelativeLayout>

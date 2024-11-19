@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Segment 1 -->
+    <item android:right="50px">
+        <shape android:shape="ring"
+            android:innerRadiusRatio="2"
+            android:useLevel="false"
+            android:thickness="100dp">
+            <solid android:color="#FFC107" />
+            <size android:width="200dp" android:height="200dp" />
+        </shape>
+    </item>
+
+    <!-- Segment 2 -->
+    <item android:bottom="50px">
+        <shape android:shape="ring"
+            android:innerRadiusRatio="2"
+            android:useLevel="false"
+            android:thickness="100dp">
+            <solid android:color="#FF5722" />
+            <size android:width="200dp" android:height="200dp" />
+        </shape>
+    </item>
+
+    <!-- Segment 3 -->
+    <item android:left="50px">
+        <shape android:shape="ring"
+            android:innerRadiusRatio="2"
+            android:useLevel="false"
+            android:thickness="100dp">
+            <solid android:color="#03A9F4" />
+            <size android:width="200dp" android:height="200dp" />
+        </shape>
+    </item>
+
+    <!-- Segment 4 -->
+    <item android:top="50px">
+        <shape android:shape="ring"
+            android:innerRadiusRatio="2"
+            android:useLevel="false"
+            android:thickness="100dp">
+            <solid android:color="#8BC34A" />
+            <size android:width="200dp" android:height="200dp" />
+        </shape>
+    </item>
+</layer-list>
